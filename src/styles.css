@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  margin: 10px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 50px;
+  height: 150px;
+  flex-direction: column;
+}
+
+select {
+  height: 250px;
+  width: 200px;
+  font-size: 20px;
+}
